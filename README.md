@@ -2,9 +2,9 @@
 
 ## Task
 
-> Give 25 list nearby hospitals base on user geolocation 
-> User geolocation can be changed base on user location
-> Give information about distance between user and hospital in kilometer
+> Give 25 list nearby hospitals base on user geolocation <br>
+> User geolocation can be changed base on user location <br>
+> Give information about distance between user and hospital in kilometer <br>
 
 ## How to run
 
