@@ -1,0 +1,9 @@
+- create ur project folder
+- clone repository link inside ur project folder
+- rename cloned folder as u want
+- inside ur project folder create virtualenv folder
+- activate ur virtualenv
+- install the requiremet from file requirements.txt
+- copy .env.example paste it as .env
+- configure ur .env file
+- 

@@ -1,0 +1,12 @@
+flask
+cleo==0.6
+pymysql
+flask-restful
+flask-orator
+flask-sqlalchemy
+flask-migrate
+flask-script
+flask-jwt-extended
+requests
+Werkzeug==0.16.0
+flask_cors
