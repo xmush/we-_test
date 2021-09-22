@@ -15,13 +15,11 @@ class HospitalList(Resource) :
         pass
 
     def get(self) :
-        # hopitals = Hospital.take(100).get()
-        hopitals = db.table('hospital_list').select(db.raw('longitude, latitude, status')).take(100).get();
+        hospitals = Hospital.all()
 
-        app.logger.debug('DEBUG : %s', hopitals)
+        app.logger.debug('DEBUG : %s', hospitals)
 
-        return jsonify(hopitals)
-        # return marshal(hospital, Hospital.response_fields), 200
+        return jsonify(hospitals)
 
 class NearbyHospitals(Resource) :
     def __init__(self) :
